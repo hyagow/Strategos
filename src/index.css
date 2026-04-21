@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+:root {
+/* Definição de cores para o modo claro */
+--color-emerald-primary: #10B981;
+--color-emerald-glow: rgba(16, 185, 129, 0.4);
+--bg-main: #f8fafc;
+--text-main: #0f172a;
+--transition-speed: 0.3s;
+}
+
+/* O seletor .dark permite que as variáveis mudem quando a classe está no body ou container */
+.dark {
+--bg-main: #050505;
+--text-main: #f1f5f9;
+}
+
+{
+transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: var(--bg-main);
+color: var(--text-main);
+font-family: 'Inter', system-ui, -apple-system, sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+scroll-behavior: smooth;
+}
+
+/* Customização de scrollbar premium */
+.custom-scrollbar::-webkit-scrollbar {
+width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+background: #333;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+background: #444;
+}
+}
+
+@layer utilities {
+/* Estilização do slider (input range) */
+input[type=range] {
+-webkit-appearance: none;
+appearance: none;
+background: transparent;
+}
+
+/* Estilo do círculo do slider para Webkit (Chrome/Safari/Edge) */
+input[type=range]::-webkit-slider-thumb {
+-webkit-appearance: none;
+height: 16px;
+width: 16px;
+border-radius: 6px;
+background: var(--color-emerald-primary);
+cursor: pointer;
+border: 2px solid #000;
+box-shadow: 0 0 15px var(--color-emerald-glow);
+margin-top: -6px;
+}
+
+/* Estilo do círculo do slider para Firefox */
+input[type=range]::-moz-range-thumb {
+height: 16px;
+width: 16px;
+border-radius: 6px;
+background: var(--color-emerald-primary);
+cursor: pointer;
+border: 2px solid #000;
+box-shadow: 0 0 15px var(--color-emerald-glow);
+}
+
+/* Efeito de Glassmorphism */
+.glass {
+background: rgba(255, 255, 255, 0.03);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+}
