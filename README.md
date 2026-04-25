@@ -1,16 +1,73 @@
-# React + Vite:
+#🚀 React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto utiliza React com Vite, oferecendo uma configuração mínima e rápida para desenvolvimento moderno com suporte a HMR (Hot Module Replacement) e regras básicas de ESLint.
 
-Currently, two official plugins are available:
+#📦 Tecnologias
+- React
+- Vite
+- ESLint
+#⚡ Plugins disponíveis
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Atualmente, existem dois plugins oficiais para integração do React com Vite:
 
-## React Compiler:
+- @vitejs/plugin-react
+Utiliza Babel (ou OXC, quando usado com rolldown-vite) para habilitar o Fast Refresh.
+- @vitejs/plugin-react-swc
+Utiliza SWC para Fast Refresh, oferecendo uma alternativa mais rápida em alguns cenários.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#🧠 React Compiler
 
-## Expanding the ESLint configuration:
+O React Compiler não está habilitado neste template por padrão, devido ao impacto no desempenho durante o desenvolvimento e build.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Caso queira utilizá-lo, consulte a documentação oficial do React para instruções de configuração.
+
+#🔍 ESLint e boas práticas
+
+Este template inclui uma configuração básica de ESLint.
+
+Para aplicações em produção, recomenda-se:
+
+Utilizar TypeScript
+Habilitar regras de lint com análise de tipos (type-aware linting)
+
+👉 Consulte o template oficial com TypeScript para aprender a integrar:
+
+TypeScript
+typescript-eslint
+#🛠️ Como rodar o projeto
+```Bash
+# Instalar dependências
+npm install
+
+# Rodar em ambiente de desenvolvimento
+npm run dev
+
+# Build para produção
+npm run build
+
+
+# Visualizar build
+npm run preview
+```
+#📁 Estrutura básica
+```Bash
+├── src/
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+```
+#📌 Considerações
+
+Este template é ideal para:
+
+- Projetos rápidos
+- Prototipagem
+- Aplicações que não exigem configuração complexa inicial
+
+Para projetos maiores, considere adicionar:
+
+- TypeScript
+- Gerenciamento de estado (Redux, Zustand, etc.)
+- Testes (Vitest, Jest)
+- Estrutura de pastas mais robusta
