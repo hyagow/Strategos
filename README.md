@@ -1,12 +1,12 @@
-#🚀 React + Vite
+## 🚀 React + Vite
 
 Este projeto utiliza React com Vite, oferecendo uma configuração mínima e rápida para desenvolvimento moderno com suporte a HMR (Hot Module Replacement) e regras básicas de ESLint.
 
-#📦 Tecnologias
+## 📦 Tecnologias
 - React
 - Vite
 - ESLint
-#⚡ Plugins disponíveis
+## ⚡ Plugins disponíveis
 
 Atualmente, existem dois plugins oficiais para integração do React com Vite:
 
@@ -15,13 +15,13 @@ Utiliza Babel (ou OXC, quando usado com rolldown-vite) para habilitar o Fast Ref
 - @vitejs/plugin-react-swc
 Utiliza SWC para Fast Refresh, oferecendo uma alternativa mais rápida em alguns cenários.
 
-#🧠 React Compiler
+## 🧠 React Compiler
 
 O React Compiler não está habilitado neste template por padrão, devido ao impacto no desempenho durante o desenvolvimento e build.
 
 Caso queira utilizá-lo, consulte a documentação oficial do React para instruções de configuração.
 
-#🔍 ESLint e boas práticas
+## 🔍 ESLint e boas práticas
 
 Este template inclui uma configuração básica de ESLint.
 
@@ -34,7 +34,7 @@ Habilitar regras de lint com análise de tipos (type-aware linting)
 
 TypeScript
 typescript-eslint
-#🛠️ Como rodar o projeto
+## 🛠️ Como rodar o projeto
 ```Bash
 # Instalar dependências
 npm install
@@ -49,7 +49,7 @@ npm run build
 # Visualizar build
 npm run preview
 ```
-#📁 Estrutura básica
+## 📁 Estrutura básica
 ```Bash
 ├── src/
 ├── public/
@@ -57,7 +57,7 @@ npm run preview
 ├── package.json
 ├── vite.config.js
 ```
-#📌 Considerações
+## 📌 Considerações
 
 Este template é ideal para:
 
