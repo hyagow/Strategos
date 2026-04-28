@@ -1,4 +1,4 @@
-## 🚀 React + Vite
+# 🚀 React + Vite
 
 Este projeto utiliza React com Vite, oferecendo uma configuração mínima e rápida para desenvolvimento moderno com suporte a HMR (Hot Module Replacement) e regras básicas de ESLint.
 
