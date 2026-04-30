@@ -3,9 +3,11 @@
 Este projeto utiliza React com Vite, oferecendo uma configuração mínima e rápida para desenvolvimento moderno com suporte a HMR (Hot Module Replacement) e regras básicas de ESLint.
 
 ## 📦 Tecnologias
+```
 - React
 - Vite
 - ESLint
+```
 ## ⚡ Plugins disponíveis
 
 Atualmente, existem dois plugins oficiais para integração do React com Vite:
