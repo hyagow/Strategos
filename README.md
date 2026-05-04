@@ -34,8 +34,8 @@ Habilitar regras de lint com análise de tipos (type-aware linting)
 
 👉 Consulte o template oficial com TypeScript para aprender a integrar:
 
-TypeScript
-typescript-eslint
+- TypeScript: typescript-eslint
+
 ## 🛠️ Como rodar o projeto
 ```Bash
 # Instalar dependências
