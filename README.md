@@ -25,9 +25,9 @@ Caso queira utilizá-lo, consulte a documentação oficial do React para instru�
 
 ## 🔍 ESLint e boas práticas
 
-Este template inclui uma configuração básica de ESLint.
+> Este template inclui uma configuração básica de ESLint.
 
-Para aplicações em produção, recomenda-se:
+> Para aplicações em produção, recomenda-se:
 
 ### Utilizar TypeScript
 Habilitar regras de lint com análise de tipos (type-aware linting)
