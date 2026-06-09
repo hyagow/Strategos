@@ -19,7 +19,7 @@ Utiliza SWC para Fast Refresh, oferecendo uma alternativa mais rápida em alguns
 
 ## 🧠 React Compiler
 
-O React Compiler não está habilitado neste template por padrão, devido ao impacto no desempenho durante o desenvolvimento e build.
+- O React Compiler não está habilitado neste template por padrão, devido ao impacto no desempenho durante o desenvolvimento e build.
 
 Caso queira utilizá-lo, consulte a documentação oficial do React para instruções de configuração.
 
