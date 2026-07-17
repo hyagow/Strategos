@@ -10,7 +10,7 @@
 ```
 ## ⚡ Plugins disponíveis
 
-Atualmente, existem dois plugins oficiais para integração do React com Vite:
+- Atualmente, existem dois plugins oficiais para integração do React com Vite:
 
 - @vitejs/plugin-react
 Utiliza Babel (ou OXC, quando usado com rolldown-vite) para habilitar o Fast Refresh.
