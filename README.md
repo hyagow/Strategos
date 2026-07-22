@@ -61,7 +61,7 @@ npm run preview
 ```
 ## 📌 Considerações
 
-Este template é ideal para:
+*Este template é ideal para:*
 
 - Projetos rápidos
 - Prototipagem
