@@ -30,7 +30,7 @@ Utiliza SWC para Fast Refresh, oferecendo uma alternativa mais rápida em alguns
 > Para aplicações em produção, recomenda-se:
 
 ### Utilizar TypeScript
-Habilitar regras de lint com análise de tipos (type-aware linting)
+- Habilitar regras de lint com análise de tipos (type-aware linting)
 
 👉 Consulte o template oficial com TypeScript para aprender a integrar:
 
