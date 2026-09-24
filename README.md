@@ -34,7 +34,7 @@ Utiliza SWC para Fast Refresh, oferecendo uma alternativa mais rápida em alguns
 
 👉 Consulte o template oficial com TypeScript para aprender a integrar:
 
-- TypeScript: typescript-eslint
+- *TypeScript:* typescript-eslint
 
 ## 🛠️ Como rodar o projeto
 ```Bash
